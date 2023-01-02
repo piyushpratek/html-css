@@ -1,0 +1,37 @@
+body {
+  background-color: #a7dbe3;
+  color: white;
+  font-size: 21px;
+}
+h1 {
+  font-size: 70px;
+  color: #3747b3;
+}
+p {
+  color: red;
+}
+a:link {
+  color: green;
+}
+/* a:visited {
+  color: pink;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:active {
+  color: black;
+}
+/* tab button to use*/
+/* a:focus {
+  color: #3747b3;
+ }  */
+
+/* together property */
+
+a:hover,
+a:focus {
+  color: aqua;
+}
