@@ -1,13 +1,46 @@
 body {
   background-color: #a7dbe3;
   background-image: url(https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-size: cover;
   color: white;
   font-size: 21px;
+  font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic,
+    AppleGothic, sans-serif;
 }
 h1 {
   font-size: 70px;
   color: #3747b3;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-bottom: 0px;
+}
+h2 {
+  margin-top: 0px;
 }
 p {
-  color: #2f4c5c;
+  color: red;
+  margin-top: 0px;
+  margin-bottom: 50px;
+
+  line-height: 40px;
+  /* equally distributes it from 20px top 20px bottom to give 40 px line height  . 
+  it gives spacing in words*/
+
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+
+  text-align: center;
+
+  /* text-align: justify; */
+  /* in the web it doent look good */
+  /* 
+  text-decoration: line-through; */
+  /* text-decoration: underline; */
+  /* text-decoration: overline; */
+  /* 
+
+
+  
+  text-transform: uppercase; */
+  text-transform: capitalize;
 }
