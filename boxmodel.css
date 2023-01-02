@@ -1,0 +1,49 @@
+body {
+  background-color: #a7dbe3;
+  color: white;
+  font-size: 21px;
+}
+h1 {
+  font-size: 70px;
+  color: #3747b3;
+}
+p {
+  color: #2f4c5c;
+}
+
+/*comment*/
+/* the css box model */
+/* margin:empty space around my element
+ border:a border/stroke/around my element
+  padding:empty space with bakcground around my element 
+  
+  all of these add on top of the width and heigth*/
+.box {
+  background: pink;
+  width: 300px;
+  margin: 50px;
+
+  /* margin: 100px 0; */
+  /* top-bottom / left-right */
+
+  /* margin: 100px 0 200px; */
+  /* top left/right bottom */
+  /* same for padding^ */
+
+  /* border-width: 5px;
+  border-color: red;
+  border-style: solid; */
+  border: 5px solid green;
+  border-style: solid;
+  /* padding: 50px;  */
+
+  /* padding: 50px 100px 300px 25px; */
+  /* top right bottom left */
+  padding: 100px 25px;
+  /* top-bottom / right-left */
+
+  /* margins create empty space without a background color padding creates empty space with the background color  */
+  /* 
+total width
+  300px + 100px +100px +25 +25+10+10 */
+}
